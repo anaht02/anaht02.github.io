@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Grupo Viva</title>
+    <title>Grupo VIVA - Herramienta Interactiva</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,8 +11,8 @@
             background-color: #f4f4f4;
             text-align: center;
         }
-        header {/*  */
-            background-color: #f7b0ff;
+        header {
+            background-color: #007bff;
             color: white;
             padding: 10px 0;
         }
@@ -21,36 +21,44 @@
             margin: auto;
             overflow: hidden;
         }
-        main {
+        .content {
+            display: flex;
+            justify-content: space-between;
             margin-top: 30px;
+        }
+        .left, .right {
+            width: 48%;
         }
         footer {
             background-color: #333;
             color: white;
             text-align: center;
             padding: 20px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
         }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Bienvenido a Grupo Viva</h1>
+            <h1>Herramienta Interactiva para Niños con Autismo</h1>
         </div>
     </header>
 
     <main>
-        <div class="container">
-            <h2>Esta es una página de inicio simple</h2>
-            <p>Este sitio web está alojado con GitHub Pages y utiliza un diseño básico con HTML y CSS.</p>
+        <div class="container content">
+            <div class="left">
+                <h2>¿Quiénes Somos?</h2>
+                <p>El Grupo VIVA está conformado por 4 estudiantes de Ingeniería Biomédica: Ingrid, Vale, Victor y Ana.</p>
+            </div>
+            <div class="right">
+                <!-- Asegúrate de reemplazar 'URL_DE_LA_IMAGEN' con la URL real de tu imagen -->
+                <img src="https://github.com/anaht02/anaht02.github.io/blob/main/FOTO_GRUPO_VIVA.jpeg" alt="Imagen del Grupo VIVA" style="max-width:100%;height:auto;">
+            </div>
         </div>
     </main>
 
     <footer>
-        <p>Derechos de autor © 2023. Todos los derechos reservados.</p>
+        <p>Derechos de autor © 2023 Grupo VIVA. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
